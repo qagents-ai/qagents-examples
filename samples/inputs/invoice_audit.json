@@ -1,0 +1,14 @@
+{
+  "invoice_id": "INV-204",
+  "currency": "EUR",
+  "lines": [
+    {
+      "description": "Workshop",
+      "quantity": 3,
+      "unit_cents": 12500
+    }
+  ],
+  "printed_subtotal_cents": 37000,
+  "tax_cents": 7400,
+  "printed_total_cents": 44400
+}

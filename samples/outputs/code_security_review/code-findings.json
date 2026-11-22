@@ -1,0 +1,1 @@
+{"findings": [{"file": "calculator.py", "line": 2, "rule": "dynamic-eval"}]}

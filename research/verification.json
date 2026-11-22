@@ -1,0 +1,64 @@
+{
+  "checked_at_utc": "2026-11-19T14:10:32.519641+00:00",
+  "platform": "Windows 11 x86-64",
+  "python_versions": [
+    "3.11.18",
+    "3.13.18"
+  ],
+  "qagents_revision": "f14bd82edfe6775dedc3c0010d71be086db91085",
+  "examples_code_commit": "9d949a2bca8de96991e3309062505401f2ae8ce0",
+  "test_runs": [
+    {
+      "check": "source-python-3.13",
+      "command": "python -m pytest -q -W error",
+      "result": "71 passed in 3.57s",
+      "log_sha256": "ead1f25378ea47ce435cc0e0165f944709bff35a0f62b7cbe4f10019195fb948"
+    },
+    {
+      "check": "source-python-3.11",
+      "command": "python -m pytest -q -W error",
+      "result": "71 passed in 5.17s",
+      "log_sha256": "5dccbbc73d039af9a139fe9de72a9a90d60b3f4d0f95b6b0588ac644ad44cae4"
+    },
+    {
+      "check": "installed-wheel-python-3.13",
+      "command": "python -m pytest -q -W error",
+      "result": "71 passed in 4.22s",
+      "log_sha256": "607e33bab5b07729597e15dd0b669eb8116f334f547435911b71d7bcb336bb34"
+    }
+  ],
+  "collection": {
+    "examples": 18,
+    "all_verified": true,
+    "offline_model_requests": 63,
+    "provenance": "research/sample-provenance.json"
+  },
+  "research": {
+    "inspected_python_files": 21,
+    "upstream_repositories": 6,
+    "catalog": "research/sources.json"
+  },
+  "other_checks": [
+    "QAgents API code checker for application and test modules",
+    "Ruff lint and formatting",
+    "Wheel and sdist builds",
+    "Generated guides and input fixtures checked",
+    "Native OpenAI adapter with local HTTPX streaming/tool responses",
+    "Payload-binding review mutation rejected by its regression test"
+  ],
+  "dependency_audit": {
+    "tool": "uv 0.13.7 audit --locked",
+    "result": "No known vulnerabilities or adverse project statuses in 33 packages"
+  },
+  "hosted_ci": {
+    "status": "not_run",
+    "workflow": ".github/workflows/verify.yml",
+    "prerequisite": "QAGENTS_READ_TOKEN with read access to the private runtime"
+  },
+  "limits": [
+    "No live model provider was called.",
+    "No hosted Linux CI result is claimed.",
+    "Offline fixtures verify application behavior, not general model quality.",
+    "Per-use-case guides document verifier and service-substitution limits."
+  ]
+}

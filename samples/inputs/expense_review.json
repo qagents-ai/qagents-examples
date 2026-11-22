@@ -1,0 +1,20 @@
+{
+  "limits_cents": {
+    "rail": 6000,
+    "hotel": 10000
+  },
+  "expenses": [
+    {
+      "expense_id": "E1",
+      "category": "rail",
+      "amount_cents": 4500,
+      "receipt": true
+    },
+    {
+      "expense_id": "E2",
+      "category": "hotel",
+      "amount_cents": 13000,
+      "receipt": true
+    }
+  ]
+}

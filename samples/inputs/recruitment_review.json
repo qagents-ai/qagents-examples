@@ -1,0 +1,10 @@
+{
+  "skills": [
+    "Python",
+    "PostgreSQL"
+  ],
+  "resumes": {
+    "C1": "Built Python services backed by PostgreSQL.",
+    "C2": "Built Python reports."
+  }
+}

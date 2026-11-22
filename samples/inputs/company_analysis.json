@@ -1,0 +1,11 @@
+{
+  "company": "Fictional Helios Labs",
+  "source_id": "statement-demo-v1",
+  "revenue_cents": 1250000,
+  "prior_revenue_cents": 1000000,
+  "operating_cost_cents": 1000000,
+  "risk_notes": [
+    "A single supplier provides 60% of parts.",
+    "The pilot contract expires in six months."
+  ]
+}

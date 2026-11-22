@@ -1,0 +1,11 @@
+flowchart LR
+    I[Typed input] --> A[QAgents agent]
+    M[Offline fixture or configured model] --> A
+    A --> T[Tools and specialists]
+    T --> P{Approval decision}
+    P -->|Approved| D[Local destination]
+    P -->|Declined| R[Recorded refusal]
+    T --> V[Application verifier]
+    D --> V
+    R --> V
+    V --> O[Report and artifacts]

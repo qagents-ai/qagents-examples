@@ -1,0 +1,29 @@
+{
+  "origin": "ATH",
+  "destination": "BRU",
+  "day": "2026-12-10",
+  "budget_cents": 22000,
+  "flights": [
+    {
+      "flight_id": "Q101",
+      "origin": "ATH",
+      "destination": "BRU",
+      "day": "2026-12-10",
+      "price_cents": 19000
+    },
+    {
+      "flight_id": "Q102",
+      "origin": "ATH",
+      "destination": "BRU",
+      "day": "2026-12-10",
+      "price_cents": 21000
+    },
+    {
+      "flight_id": "Q103",
+      "origin": "ATH",
+      "destination": "MAD",
+      "day": "2026-12-10",
+      "price_cents": 14000
+    }
+  ]
+}

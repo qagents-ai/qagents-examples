@@ -1,0 +1,7 @@
+{
+  "query": "refund",
+  "documents": {
+    "returns-v1": "A refund may be requested within 30 days of purchase.",
+    "privacy-v1": "Contact records are retained for 90 days."
+  }
+}

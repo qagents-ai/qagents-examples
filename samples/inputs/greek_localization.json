@@ -1,0 +1,7 @@
+{
+  "text": "Hello {name}. Your order {order_id} is ready.",
+  "target": "el",
+  "glossary": {
+    "order": "παραγγελία"
+  }
+}

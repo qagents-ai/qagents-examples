@@ -1,0 +1,6 @@
+{
+  "files": {
+    "calculator.py": "def calculate(text):\n    return eval(text)\n",
+    "safe.py": "def total(values):\n    return sum(values)\n"
+  }
+}

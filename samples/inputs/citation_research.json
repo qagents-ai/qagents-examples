@@ -1,0 +1,7 @@
+{
+  "question": "How did the fictional pilot perform?",
+  "documents": {
+    "pilot": "The pilot served 40 learners.",
+    "review": "32 learners completed."
+  }
+}

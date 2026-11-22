@@ -1,0 +1,216 @@
+{
+  "checked_at_utc": "2026-11-19T13:26:10.757714+00:00",
+  "method": "Official GitHub repository metadata, immutable source files and content hashes. Upstream code was read, not executed or copied into this package.",
+  "source_files": [
+    {
+      "repository": "openai/openai-agents-python",
+      "path": "examples/research_bot/manager.py",
+      "commit": "91fb508a8931016efa793b033147d08cd20308cf",
+      "url": "https://github.com/openai/openai-agents-python/blob/91fb508a8931016efa793b033147d08cd20308cf/examples/research_bot/manager.py",
+      "sha256": "933b55a0b2d77625ec69c2a8c86df3c11b2217808a7831a11d2be99c4ce738fa",
+      "bytes": 4914,
+      "repository_license": "MIT",
+      "mechanism": "research planning and writing"
+    },
+    {
+      "repository": "openai/openai-agents-python",
+      "path": "examples/customer_service/main.py",
+      "commit": "91fb508a8931016efa793b033147d08cd20308cf",
+      "url": "https://github.com/openai/openai-agents-python/blob/91fb508a8931016efa793b033147d08cd20308cf/examples/customer_service/main.py",
+      "sha256": "f9f1ff5b37efbb41c17f769934615c3c3c4e107a5d44eb6d09282b2b924ffb7f",
+      "bytes": 6864,
+      "repository_license": "MIT",
+      "mechanism": "support handoffs and tools"
+    },
+    {
+      "repository": "openai/openai-agents-python",
+      "path": "examples/agent_patterns/agents_as_tools.py",
+      "commit": "91fb508a8931016efa793b033147d08cd20308cf",
+      "url": "https://github.com/openai/openai-agents-python/blob/91fb508a8931016efa793b033147d08cd20308cf/examples/agent_patterns/agents_as_tools.py",
+      "sha256": "9e86cc3a1570a329ebdf531f13c23748813e834397d5452f6cd2840aea877565",
+      "bytes": 2725,
+      "repository_license": "MIT",
+      "mechanism": "translation specialists as tools"
+    },
+    {
+      "repository": "openai/openai-agents-python",
+      "path": "examples/agent_patterns/agents_as_tools_structured.py",
+      "commit": "91fb508a8931016efa793b033147d08cd20308cf",
+      "url": "https://github.com/openai/openai-agents-python/blob/91fb508a8931016efa793b033147d08cd20308cf/examples/agent_patterns/agents_as_tools_structured.py",
+      "sha256": "85ba8781e3e8f3e598be95652f0d067fb81749a56b31d59190587826fe1cce9d",
+      "bytes": 1976,
+      "repository_license": "MIT",
+      "mechanism": "typed specialist results"
+    },
+    {
+      "repository": "openai/openai-agents-python",
+      "path": "examples/agent_patterns/human_in_the_loop.py",
+      "commit": "91fb508a8931016efa793b033147d08cd20308cf",
+      "url": "https://github.com/openai/openai-agents-python/blob/91fb508a8931016efa793b033147d08cd20308cf/examples/agent_patterns/human_in_the_loop.py",
+      "sha256": "f882e80ac7d442fd56d3815037c7193097e1388a4f531b08b921c5e970408355",
+      "bytes": 4224,
+      "repository_license": "MIT",
+      "mechanism": "approval pauses and serialization"
+    },
+    {
+      "repository": "openai/openai-agents-python",
+      "path": "examples/memory/sqlite_session_example.py",
+      "commit": "91fb508a8931016efa793b033147d08cd20308cf",
+      "url": "https://github.com/openai/openai-agents-python/blob/91fb508a8931016efa793b033147d08cd20308cf/examples/memory/sqlite_session_example.py",
+      "sha256": "b4d3db5c8c11c3ed4e627352a16e742bc0c1b581be4c5e48aa45536d97c4f493",
+      "bytes": 2364,
+      "repository_license": "MIT",
+      "mechanism": "persistent sessions"
+    },
+    {
+      "repository": "openai/openai-agents-python",
+      "path": "examples/financial_research_agent/manager.py",
+      "commit": "91fb508a8931016efa793b033147d08cd20308cf",
+      "url": "https://github.com/openai/openai-agents-python/blob/91fb508a8931016efa793b033147d08cd20308cf/examples/financial_research_agent/manager.py",
+      "sha256": "d9dfd1a8db8ba734fd6045f22109fb24ea6b9b2eb3031b0b04732dc777b51351",
+      "bytes": 11280,
+      "repository_license": "MIT",
+      "mechanism": "verified company research"
+    },
+    {
+      "repository": "pydantic/pydantic-ai",
+      "path": "examples/pydantic_ai_examples/pydantic_model.py",
+      "commit": "f1d7eeb952951bd8944f7579560a121a111178f7",
+      "url": "https://github.com/pydantic/pydantic-ai/blob/f1d7eeb952951bd8944f7579560a121a111178f7/examples/pydantic_ai_examples/pydantic_model.py",
+      "sha256": "81c9883ac041b295595fde755ef5374f1ab68ce5b1670719e47e9a28ba6a8d3b",
+      "bytes": 845,
+      "repository_license": "MIT",
+      "mechanism": "typed extraction"
+    },
+    {
+      "repository": "pydantic/pydantic-ai",
+      "path": "examples/pydantic_ai_examples/bank_support.py",
+      "commit": "f1d7eeb952951bd8944f7579560a121a111178f7",
+      "url": "https://github.com/pydantic/pydantic-ai/blob/f1d7eeb952951bd8944f7579560a121a111178f7/examples/pydantic_ai_examples/bank_support.py",
+      "sha256": "5dfa474cdf8cce3a40c51ade3bb3c4da339f45ba7167f73a68c659afee8d99cf",
+      "bytes": 3014,
+      "repository_license": "MIT",
+      "mechanism": "dependency-bound business tools"
+    },
+    {
+      "repository": "pydantic/pydantic-ai",
+      "path": "examples/pydantic_ai_examples/flight_booking.py",
+      "commit": "f1d7eeb952951bd8944f7579560a121a111178f7",
+      "url": "https://github.com/pydantic/pydantic-ai/blob/f1d7eeb952951bd8944f7579560a121a111178f7/examples/pydantic_ai_examples/flight_booking.py",
+      "sha256": "33b1ae6e1555c891911a718a97fc4667c30c8fdc5688b6afe2f6144e129d6b90",
+      "bytes": 7559,
+      "repository_license": "MIT",
+      "mechanism": "constraint-checked flight selection"
+    },
+    {
+      "repository": "pydantic/pydantic-ai",
+      "path": "examples/pydantic_ai_examples/rag.py",
+      "commit": "f1d7eeb952951bd8944f7579560a121a111178f7",
+      "url": "https://github.com/pydantic/pydantic-ai/blob/f1d7eeb952951bd8944f7579560a121a111178f7/examples/pydantic_ai_examples/rag.py",
+      "sha256": "7cafb5693e3aa3e8c835f8cee5d07ec474ebe96aaa4cb22f393e3ff9d6ce2488",
+      "bytes": 8083,
+      "repository_license": "MIT",
+      "mechanism": "retrieved document evidence"
+    },
+    {
+      "repository": "huggingface/smolagents",
+      "path": "examples/text_to_sql.py",
+      "commit": "2689e450364d451a0afa0a5e883d12a031c125dd",
+      "url": "https://github.com/huggingface/smolagents/blob/2689e450364d451a0afa0a5e883d12a031c125dd/examples/text_to_sql.py",
+      "sha256": "fe09584641825a2c1170a28446c0b773ab7d700db7b2afa70ba34ab87f580dc7",
+      "bytes": 2175,
+      "repository_license": "Apache-2.0",
+      "mechanism": "SQL tools and table schemas"
+    },
+    {
+      "repository": "crewAIInc/crewAI-examples",
+      "path": "flows/lead-score-flow/src/lead_score_flow/main.py",
+      "commit": "da94a91e691e1cf5b3151416bb15b5b62729bea8",
+      "url": "https://github.com/crewAIInc/crewAI-examples/blob/da94a91e691e1cf5b3151416bb15b5b62729bea8/flows/lead-score-flow/src/lead_score_flow/main.py",
+      "sha256": "421c8920b5c0032e8f137999b6b882f333d78dcecd31e9aa56d16bc783ec53de",
+      "bytes": 7125,
+      "repository_license": null,
+      "mechanism": "lead qualification flow"
+    },
+    {
+      "repository": "crewAIInc/crewAI-examples",
+      "path": "flows/meeting_assistant_flow/src/meeting_assistant_flow/main.py",
+      "commit": "da94a91e691e1cf5b3151416bb15b5b62729bea8",
+      "url": "https://github.com/crewAIInc/crewAI-examples/blob/da94a91e691e1cf5b3151416bb15b5b62729bea8/flows/meeting_assistant_flow/src/meeting_assistant_flow/main.py",
+      "sha256": "bb0f7ba9c5a6ad53f42910b21cb7493448772088d8f45a3139cacaf8fc90aa4c",
+      "bytes": 2451,
+      "repository_license": null,
+      "mechanism": "meeting action workflow"
+    },
+    {
+      "repository": "crewAIInc/crewAI-examples",
+      "path": "crews/recruitment/src/recruitment/crew.py",
+      "commit": "da94a91e691e1cf5b3151416bb15b5b62729bea8",
+      "url": "https://github.com/crewAIInc/crewAI-examples/blob/da94a91e691e1cf5b3151416bb15b5b62729bea8/crews/recruitment/src/recruitment/crew.py",
+      "sha256": "2d1b23ac604c64c6618346200fa2e1372d692cc2cf0426f2c791924da01eb155",
+      "bytes": 2416,
+      "repository_license": null,
+      "mechanism": "recruitment specialists"
+    },
+    {
+      "repository": "crewAIInc/crewAI-examples",
+      "path": "crews/prep-for-a-meeting/tasks.py",
+      "commit": "da94a91e691e1cf5b3151416bb15b5b62729bea8",
+      "url": "https://github.com/crewAIInc/crewAI-examples/blob/da94a91e691e1cf5b3151416bb15b5b62729bea8/crews/prep-for-a-meeting/tasks.py",
+      "sha256": "743ab667d30ed7074d64cb7740d761fb4a8d9a29ebfb70665d37916e33629615",
+      "bytes": 2545,
+      "repository_license": null,
+      "mechanism": "evidence-backed meeting preparation"
+    },
+    {
+      "repository": "crewAIInc/crewAI-examples",
+      "path": "crews/stock_analysis/src/stock_analysis/crew.py",
+      "commit": "da94a91e691e1cf5b3151416bb15b5b62729bea8",
+      "url": "https://github.com/crewAIInc/crewAI-examples/blob/da94a91e691e1cf5b3151416bb15b5b62729bea8/crews/stock_analysis/src/stock_analysis/crew.py",
+      "sha256": "103865a0797c6c1088e4505e5e8e99f64efd31b1b7af310e33ec303e8d0ec114",
+      "bytes": 3263,
+      "repository_license": null,
+      "mechanism": "company analyst team"
+    },
+    {
+      "repository": "microsoft/autogen",
+      "path": "python/samples/core_distributed-group-chat/_agents.py",
+      "commit": "8390985108cb1e3881f5f7297765758d8ad2540c",
+      "url": "https://github.com/microsoft/autogen/blob/8390985108cb1e3881f5f7297765758d8ad2540c/python/samples/core_distributed-group-chat/_agents.py",
+      "sha256": "b8ae5eaa4f6684e210e7e6fdb4f853696af622ba85dbeeddfc446c83ba27e07e",
+      "bytes": 8373,
+      "repository_license": "CC-BY-4.0",
+      "mechanism": "writer/editor coordination"
+    },
+    {
+      "repository": "microsoft/autogen",
+      "path": "python/samples/gitty/src/gitty/_gitty.py",
+      "commit": "8390985108cb1e3881f5f7297765758d8ad2540c",
+      "url": "https://github.com/microsoft/autogen/blob/8390985108cb1e3881f5f7297765758d8ad2540c/python/samples/gitty/src/gitty/_gitty.py",
+      "sha256": "f1c45b384bba4975e787545bb4d3f72a9e8de2b23132ef81d4fcd94077ee7eb4",
+      "bytes": 8117,
+      "repository_license": "CC-BY-4.0",
+      "mechanism": "repository investigation"
+    },
+    {
+      "repository": "agno-agi/agno",
+      "path": "cookbook/05_agent_os/17_slack/hitl_incident_commander.py",
+      "commit": "365c9c7e74719c1d20b557178add8c65f27a4426",
+      "url": "https://github.com/agno-agi/agno/blob/365c9c7e74719c1d20b557178add8c65f27a4426/cookbook/05_agent_os/17_slack/hitl_incident_commander.py",
+      "sha256": "a5c452341cd37a8b5c0a26574071ba3a9f407348cef6582b216feef2ea47b0e8",
+      "bytes": 5149,
+      "repository_license": "Apache-2.0",
+      "mechanism": "incident coordination and approvals"
+    },
+    {
+      "repository": "agno-agi/agno",
+      "path": "cookbook/00_quickstart/agent_with_memory.py",
+      "commit": "365c9c7e74719c1d20b557178add8c65f27a4426",
+      "url": "https://github.com/agno-agi/agno/blob/365c9c7e74719c1d20b557178add8c65f27a4426/cookbook/00_quickstart/agent_with_memory.py",
+      "sha256": "63a9fdd34e9c5d6f4e06aaaff3623facedd7cd6dc9f969f897cdbe9dd7d54586",
+      "bytes": 5568,
+      "repository_license": "Apache-2.0",
+      "mechanism": "user memory"
+    }
+  ]
+}

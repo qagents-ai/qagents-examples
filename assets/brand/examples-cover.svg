@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+<title id="title">QAgents Examples</title><desc id="desc">Start with an application. Inspect the tools, run the workflow and check the resulting artifacts. Offline fixtures execute the real runtime.</desc>
+<defs>
+<pattern id="paper" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#dce4f1" stroke-width="0.5"/></pattern>
+<marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#008d82" stroke-width="1.4"/></marker>
+</defs>
+<rect width="1200" height="380" rx="18" fill="#f5f7fc"/>
+<rect x="632" y="0" width="568" height="380" fill="url(#paper)"/>
+<g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<g transform="translate(34 31) scale(.32)"><g id="mark" fill="#3B3F9E">
+    <path d="M38.928 88 A82 82 0 0 1 193.072 88 H148.634 A43 43 0 0 0 83.366 88 Z"/>
+    <path d="M36.476 96 H77.934 A43 43 0 0 0 77.934 136 H36.476 A82 82 0 0 1 36.476 96 Z M195.524 96 H154.066 A43 43 0 0 1 154.066 136 H195.524 A82 82 0 0 0 195.524 96 Z"/>
+    <path fill="#008D82" d="M38.928 144 H83.366 A43 43 0 0 0 148.634 144 H193.072 A82 82 0 0 1 184.183 161.555 L216.314 193.686 A16 16 0 0 1 193.686 216.314 L161.555 184.183 A82 82 0 0 1 38.928 144 Z"/>
+  </g></g>
+<text x="134" y="92" fill="#253266" font-size="38" font-weight="650">QAgents Examples</text>
+<text x="54" y="168" fill="#243651" font-size="24" font-weight="500">Start with an application.</text>
+<text x="54" y="204" fill="#4d5f76" font-size="18" font-weight="400">Inspect the tools, run the workflow</text>
+<text x="54" y="232" fill="#4d5f76" font-size="18" font-weight="400">and check the resulting artifacts.</text>
+<path d="M674 295H1122" fill="none" stroke="#3b3f9e" stroke-width="7" stroke-linecap="round"/>
+<path d="M728 225V291" fill="none" stroke="#9aa8bf" stroke-width="1.6"/>
+<rect x="674" y="118" width="132" height="107" rx="9" fill="#fff" stroke="#b8c6dc"/>
+<text x="689" y="155" fill="#253266" font-size="20" font-weight="600">Task</text>
+<text x="689" y="187" fill="#4d5f76" font-size="15" font-weight="400">Typed input</text>
+<circle cx="728" cy="295" r="7" fill="#008d82" stroke="#f5f7fc" stroke-width="3"/>
+<path d="M807 172H829" fill="none" stroke="#008d82" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M886 225V291" fill="none" stroke="#9aa8bf" stroke-width="1.6"/>
+<rect x="832" y="118" width="132" height="107" rx="9" fill="#fff" stroke="#b8c6dc"/>
+<text x="847" y="155" fill="#253266" font-size="20" font-weight="600">Agent</text>
+<text x="847" y="187" fill="#4d5f76" font-size="15" font-weight="400">Tools and review</text>
+<circle cx="886" cy="295" r="7" fill="#008d82" stroke="#f5f7fc" stroke-width="3"/>
+<path d="M965 172H987" fill="none" stroke="#008d82" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M1044 225V291" fill="none" stroke="#9aa8bf" stroke-width="1.6"/>
+<rect x="990" y="118" width="132" height="107" rx="9" fill="#fff" stroke="#b8c6dc"/>
+<text x="1005" y="155" fill="#253266" font-size="20" font-weight="600">Verify</text>
+<text x="1005" y="187" fill="#4d5f76" font-size="15" font-weight="400">Checked result</text>
+<circle cx="1044" cy="295" r="7" fill="#008d82" stroke="#f5f7fc" stroke-width="3"/>
+<text x="674" y="334" fill="#3c516d" font-size="16" font-weight="400">Offline fixtures execute the real runtime.</text>
+</g></svg>

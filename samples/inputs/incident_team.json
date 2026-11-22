@@ -1,0 +1,6 @@
+{
+  "incident_id": "INC-42",
+  "service": "demo-api",
+  "p95_ms": 1200,
+  "budget_ms": 500
+}

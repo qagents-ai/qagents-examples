@@ -1,0 +1,46 @@
+name: Verify offline QAgents examples
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  examples:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-latest
+            python: '3.11'
+          - os: ubuntu-latest
+            python: '3.13'
+          - os: windows-latest
+            python: '3.13'
+    runs-on: ${{ matrix.os }}
+    defaults:
+      run:
+        working-directory: examples
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          path: examples
+          persist-credentials: false
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: qagents-ai/qagents
+          ref: db4813c15b4b6c6efa180a02df157ca115329d12
+          path: qagents
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -m pip install uv==0.13.7
+      - run: uv sync --locked --extra dev
+      - run: uv run --locked ruff check src tests scripts
+      - run: uv run --locked ruff format --check src tests scripts
+      - run: uv run --locked pytest -q -W error
+      - run: uv run --locked python scripts/check_qagents_api.py
+      - run: uv run --locked qagents-examples run-all --output .runs/ci-collection
+      - run: uv audit --locked

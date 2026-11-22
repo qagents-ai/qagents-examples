@@ -1,0 +1,7 @@
+{
+  "tenant": "demo-org",
+  "user": "alex",
+  "preferences": {
+    "language": "el"
+  }
+}

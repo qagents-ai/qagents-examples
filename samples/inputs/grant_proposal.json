@@ -1,0 +1,54 @@
+{
+  "title": "BRIDGE: Community Digital Learning",
+  "challenge": "Adult educators need reusable, accessible methods for teaching digital skills.",
+  "partners": [
+    {
+      "partner_id": "P1",
+      "country": "EL",
+      "role": "coordination and adult learning"
+    },
+    {
+      "partner_id": "P2",
+      "country": "IT",
+      "role": "accessible learning design"
+    },
+    {
+      "partner_id": "P3",
+      "country": "ES",
+      "role": "piloting and evaluation"
+    }
+  ],
+  "budget_cents": 12000000,
+  "work_packages": [
+    {
+      "wp_id": "WP1",
+      "title": "Management and co-design",
+      "lead": "P1",
+      "budget_cents": 2000000,
+      "deliverables": [
+        "Needs-validation protocol",
+        "Governance and quality plan"
+      ]
+    },
+    {
+      "wp_id": "WP2",
+      "title": "Accessible toolkit and educator pilots",
+      "lead": "P2",
+      "budget_cents": 6000000,
+      "deliverables": [
+        "Six accessible learning modules",
+        "Three local educator pilots"
+      ]
+    },
+    {
+      "wp_id": "WP3",
+      "title": "Evaluation and transfer",
+      "lead": "P3",
+      "budget_cents": 4000000,
+      "deliverables": [
+        "Pilot evaluation report",
+        "Adaptation and sustainability handbook"
+      ]
+    }
+  ]
+}

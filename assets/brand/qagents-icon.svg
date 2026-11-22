@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="logo-title logo-desc">
+  <title id="logo-title">qagents</title>
+  <desc id="logo-desc">A q formed from three journal bands; the final teal band extends into a rounded tail.</desc>
+  <g id="mark" fill="#3B3F9E">
+    <path d="M38.928 88 A82 82 0 0 1 193.072 88 H148.634 A43 43 0 0 0 83.366 88 Z"/>
+    <path d="M36.476 96 H77.934 A43 43 0 0 0 77.934 136 H36.476 A82 82 0 0 1 36.476 96 Z M195.524 96 H154.066 A43 43 0 0 1 154.066 136 H195.524 A82 82 0 0 0 195.524 96 Z"/>
+    <path fill="#008D82" d="M38.928 144 H83.366 A43 43 0 0 0 148.634 144 H193.072 A82 82 0 0 1 184.183 161.555 L216.314 193.686 A16 16 0 0 1 193.686 216.314 L161.555 184.183 A82 82 0 0 1 38.928 144 Z"/>
+  </g>
+</svg>

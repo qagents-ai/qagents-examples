@@ -1,0 +1,18 @@
+{
+  "sector": "education",
+  "threshold": 70,
+  "leads": [
+    {
+      "lead_id": "L1",
+      "sector": "education",
+      "employees": 60,
+      "requested_demo": true
+    },
+    {
+      "lead_id": "L2",
+      "sector": "retail",
+      "employees": 4,
+      "requested_demo": false
+    }
+  ]
+}
